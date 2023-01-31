@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B08EDF82951816A0076B32C /* useViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B08EDF72951816A0076B32C /* useViewController.swift */; };
+		4B08EDFA2951866F0076B32C /* あああああ.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B08EDF92951866F0076B32C /* あああああ.png */; };
+		4B08EDFC2951876F0076B32C /* aaaaa2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B08EDFB2951876F0076B32C /* aaaaa2.png */; };
 		4B2ACC352834C52A009BDC50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2ACC342834C52A009BDC50 /* AppDelegate.swift */; };
 		4B2ACC372834C52A009BDC50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2ACC362834C52A009BDC50 /* SceneDelegate.swift */; };
 		4B2ACC392834C52A009BDC50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2ACC382834C52A009BDC50 /* ViewController.swift */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B08EDF72951816A0076B32C /* useViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = useViewController.swift; sourceTree = "<group>"; };
+		4B08EDF92951866F0076B32C /* あああああ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "あああああ.png"; sourceTree = "<group>"; };
+		4B08EDFB2951876F0076B32C /* aaaaa2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aaaaa2.png; sourceTree = "<group>"; };
 		4B2ACC312834C52A009BDC50 /* 展開一品三.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "展開一品三.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2ACC342834C52A009BDC50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B2ACC362834C52A009BDC50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,16 +86,19 @@
 				4B2ACC4D2834C5F4009BDC50 /* tarukimaru 2.psd */,
 				4B2ACC4F2834C5F4009BDC50 /* tarukimaru.png */,
 				4B2ACC4C2834C5F4009BDC50 /* tarukimaru.psd */,
+				4B08EDF92951866F0076B32C /* あああああ.png */,
 				4B2ACC3A2834C52A009BDC50 /* Main.storyboard */,
 				4B2ACC382834C52A009BDC50 /* ViewController.swift */,
 				4B2ACC482834C579009BDC50 /* twoViewController.swift */,
 				4B2ACC4A2834C5C3009BDC50 /* threeViewController.swift */,
 				4B679769286AC5CF00635F53 /* threesViewController.swift */,
+				4B08EDF72951816A0076B32C /* useViewController.swift */,
 				4B2ACC342834C52A009BDC50 /* AppDelegate.swift */,
 				4B2ACC362834C52A009BDC50 /* SceneDelegate.swift */,
 				4B2ACC3D2834C52B009BDC50 /* Assets.xcassets */,
 				4B2ACC3F2834C52B009BDC50 /* LaunchScreen.storyboard */,
 				4B2ACC422834C52C009BDC50 /* Info.plist */,
+				4B08EDFB2951876F0076B32C /* aaaaa2.png */,
 			);
 			path = "展開一品三";
 			sourceTree = "<group>";
@@ -152,6 +161,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B08EDFA2951866F0076B32C /* あああああ.png in Resources */,
+				4B08EDFC2951876F0076B32C /* aaaaa2.png in Resources */,
 				4B2ACC552834C5F4009BDC50 /* tarukimaru.png in Resources */,
 				4B2ACC522834C5F4009BDC50 /* tarukimaru.psd in Resources */,
 				4B2ACC562834C5F4009BDC50 /* siro.jpeg in Resources */,
@@ -172,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B2ACC4B2834C5C3009BDC50 /* threeViewController.swift in Sources */,
+				4B08EDF82951816A0076B32C /* useViewController.swift in Sources */,
 				4B2ACC392834C52A009BDC50 /* ViewController.swift in Sources */,
 				4B2ACC352834C52A009BDC50 /* AppDelegate.swift in Sources */,
 				4B67976A286AC5CF00635F53 /* threesViewController.swift in Sources */,

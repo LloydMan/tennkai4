@@ -42,10 +42,10 @@ class twoViewController: UIViewController {
     
     var timer: Timer = Timer()
     
-    let question1Array:[String] = ["+2","+6","+8","+25","+10","+9","+44","+22","+18","+24"]
-    let question2Array:[String] = ["+4","+6","+8","+5","+3","+9","+7","+2","+1","-24"]
-    let answer1Array:[String] =   ["+6","+12","+16","+30","13","+18","+51","+24","+19","+0"]
-    let answer2Array:[String] =   ["+8","+36","+64","+125","+30","+81","+308","+44","+18","-576"]
+    let question1Array:[String] = ["+9" ,"+6" ,"+8" ,"+25" ,"+10","+44" ,"+51" ,"+22","+18","+24"]
+    let question2Array:[String] = ["+9" ,"+6" ,"+8" ,"+5"  ,"+3" ,"+7"  ,"+4"  ,"+2" ,"+1" ,"-24"]
+    let answer1Array:[String] =   ["+18","+12","+16","+30" ,"13" ,"+51" ,"+55" ,"+24","+19","+0"]
+    let answer2Array:[String] =   ["+81","+36","+64","+125","+30","+308","+204","+44","+18","-576"]
     
     var index: Int = 0
     
@@ -108,7 +108,7 @@ class twoViewController: UIViewController {
     
     
     func monndai(){
-    numberQ = Int.random(in: 1...3)
+        numberQ = Int.random(in: 1...10)
 
         
 //    if(numberQ == 1){
